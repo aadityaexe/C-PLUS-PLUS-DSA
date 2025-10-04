@@ -12,7 +12,7 @@ public:
       {
         minPrice = prices[i];
       }
-      else
+      167. Two Sum II - Input Array Is Sorted else
       {
         maxProfit = max(maxProfit, prices[i] - minPrice);
       }
