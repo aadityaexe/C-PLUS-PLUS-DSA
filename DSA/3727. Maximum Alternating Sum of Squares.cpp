@@ -3,9 +3,7 @@ class Solution
 public:
   long long maxAlternatingSum(vector<int> &nums)
   {
-    // sort(nums.begin(),nums.end(),[](int a, int b){
-    //     return abs(a)> abs(b);
-    // });
+
     vector<long long> ok;
 
     for (int x : nums)
