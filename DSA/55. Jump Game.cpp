@@ -10,7 +10,6 @@ public:
         return false;
       jumpindex = max(jumpindex, i + nums[i]);
     }
-
     return true;
   }
 };

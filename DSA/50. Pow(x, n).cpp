@@ -17,7 +17,6 @@ public:
       x *= x;
       power /= 2;
     }
-
     return ans;
   }
 };
